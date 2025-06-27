@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-alpine
 
 # Variables d’environnement Nexus (évite d’inclure des secrets en dur en production)
 ENV NEXUS_USERNAME=admin
-ENV NEXUS_PASSWORD=nexus
+ENV NEXUS_PASSWORD=Mohabir2310-
 
 # Dossier de travail
 WORKDIR /app
